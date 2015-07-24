@@ -1,0 +1,12 @@
+imageLoader.o: imageLoader.c imageLoader.h
+vector.o: vector.c stringOutput.h types.h
+main.o: main.c io.h scene.h types.h
+scene.o: scene.c stringOutput.h scene.h types.h logic.h water.h terrain.h \
+ vector.h
+io.o: io.c io.h scene.h types.h logic.h water.h terrain.h vector.h \
+ imageLoader.h
+water.o: water.c water.h types.h terrain.h particle.h logic.h vector.h
+terrain.o: terrain.c terrain.h types.h logic.h vector.h
+logic.o: logic.c stringOutput.h logic.h types.h vector.h scene.h water.h \
+ terrain.h
+stringOutput.o: stringOutput.c stringOutput.h
