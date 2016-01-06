@@ -93,7 +93,7 @@ The same goes for the valley, where the water is.
 I only tested an run this simulation on a debian-based unix OS. It should run on any other machine as well but is not
 tested.
 
-# **Requirements**
+### **Requirements**
 
 The following system-attributes are required for running this simulation:
 
@@ -101,7 +101,7 @@ The following system-attributes are required for running this simulation:
 
 - Unix-Libraries: xorg-dev, freeglut3-dev and mesa-common-dev
 
-# **Running**
+### **Running**
 
 Compiling and running is then pretty straight forward.
 
