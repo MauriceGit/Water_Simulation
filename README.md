@@ -90,7 +90,7 @@ The same goes for the valley, where the water is.
 
 ## **Install && Run**
 
-I only tested an run this simulation on a debian-based unix OS. It should run on any other machine as well but is not
+I only tested an ran this simulation on a debian-based unix OS (Ubuntu, Mint, ...). It should run on any other machine as well but is not
 tested.
 
 ### **Requirements**
@@ -103,7 +103,7 @@ The following system-attributes are required for running this simulation:
 
 ### **Running**
 
-Compiling and running is then pretty straight forward.
+Compiling and running is pretty straight forward.
 
 - make
 
