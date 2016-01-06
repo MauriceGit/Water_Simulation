@@ -88,6 +88,44 @@ The perlin-noise-height-fiel is then very simply textured, based on the current 
 The mountain-like hill is added, by adding some gauss-function the the perlin-noise output.
 The same goes for the valley, where the water is.
 
+## **Install && Run**
+
+I only tested an run this simulation on a debian-based unix OS. It should run on any other machine as well but is not
+tested.
+
+# **Requirements**
+
+The following system-attributes are required for running this simulation:
+
+- A graphics card supporting OpenGL version 3.3 (For the shaders).
+
+- Unix-Libraries: xorg-dev, freeglut3-dev and mesa-common-dev
+
+# **Running**
+
+Compiling and running is then pretty straight forward.
+
+- make
+
+- ./water
+
+While the simulation runs, you can move around (always looking to the center!) with your mouse (left-klick and move).
+
+Initializing a random movement (choppy water) is done with 'r'.
+
+Creating one/several waves by pressing 'n'.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
