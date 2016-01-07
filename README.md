@@ -1,5 +1,6 @@
 # Water-Simulation with Realtime Reflections/Refractions from the Surface
-This project consists of several smaller projects joined together.
+This project consists of several smaller projects joined together. Pretty much everything is done completely from
+scratch. So no external libraries or dependencies (except basic OpenGL) are needed to run this simulation.
 
 The final endresult looks like that:
 
